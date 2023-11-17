@@ -13,6 +13,14 @@ This project includes classes for managing the game grid, handling neighbors, an
 - Start, stop, and clear game controls
 - Responsive loader during operations
 
+## How to Play
+
+1. Adjust the grid size using the "Rows" and "Cols" input fields.
+2. Click "Apply" to update the grid with the new size.
+3. Click "Generate" to populate the grid with random cells.
+4. Start the game using the "Start" button.
+5. Stop the game or clear the grid using the respective buttons.
+
 ## Usage
 
 1. Clone the repository:
