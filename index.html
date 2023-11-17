@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Игра "Жизнь"</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts/game.js"></script>
+</head>
+<body>
+	<div style="margin-bottom: 10px; display: flex; flex-direction: column;">
+		<label>
+			высота
+			<input id="rows-input" type="number"/>
+		</label>
+        <label>
+			ширина
+			<input id="cols-input" type="number"/>
+		</label>
+        <button id="apply-btn">применить</button>
+	</div>
+    <div style="margin-bottom: 20px">
+        время генерации поколения 200 миллисекунд
+    </div>
+    <div style="margin-bottom: 10px;">
+        <button id="start-btn">старт</button>
+        <button id="stop-btn">стоп</button>
+        <button id="clear-btn">очистить</button>
+        <button id="generate-btn">сгенерировать</button>
+    </div>
+    <div id="grid-container"></div>
+    <div class="loader-container">
+        <div class="loader"></div>
+    </div>
+</body>
+</html>
